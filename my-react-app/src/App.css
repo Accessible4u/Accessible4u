@@ -1,0 +1,169 @@
+/* Root container styles */
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Accessibility text styles */
+.accessibility-text {
+  color:  #169DF1;
+  font-family: "Playfair Display";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 80px; /* 125% */
+  display: inline-block;
+  transform: rotate(-3.2deg);
+  position: fixed;
+  top: 190px;
+}
+
+/* Wheelchair image styles */
+.wheelchair-image {
+  width: 109px;
+  height: 109px;
+  transform: rotate(-2.877deg);
+  flex-shrink: 0;
+  aspect-ratio: 1 / 1;
+  position: fixed;
+  top: 216px; /* Adjust as needed */
+  left: -0px; /* Adjust as needed */
+}
+
+/* Logo styles */
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+/* Dashboard button styles */
+.dashboard-btn {
+  display: block;
+  width: 223px;
+  height: 66px;
+  position:fixed;
+  top: 25px;
+  left: 35px;
+  border-radius: 16px;
+  border: 1px solid #000;
+  padding: 24px 48px;
+  box-sizing: border-box;
+  background: #16C116;
+  color: #111;
+  font-size: 16px;
+  font-family: "Work Sans";
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 18px;
+  font-style: normal;
+}
+
+/* Theme toggle button styles */
+.theme-toggle {
+  position: fixed;
+  top: 15px;
+  left: 350px;
+  cursor: pointer;
+  width: 84px;
+  height: 81px;
+  flex-shrink: 0;
+}
+
+/* Language toggle button styles */
+.language-toggle {
+  position: fixed;
+  top: 18px;
+  left: 450px;
+  cursor: pointer;
+  width: 84px;
+  height: 81px;
+  flex-shrink: 0;
+}
+
+/* Logo image styles */
+.logo-image {
+  width: 174.144px;
+  height: 174.144px;
+  transform: rotate(-2.05deg);
+  flex-shrink: 0;
+  aspect-ratio: 1 / 1;
+  position: absolute;
+  top: 175.23px;
+  left: 500px;
+}
+
+/* Content container styles */
+.content-container {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  padding-left: 24px;
+  flex-shrink: 0;
+  width: 653px;
+  height: 553px;
+  position: fixed;
+  top: 95px;
+  left: 15px;
+}
+
+/* Text box 1 styles */
+.text-box-1 {
+  width: 629px;
+  height: 270px;
+  font-family: "Playfair Display";
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 90px;
+  color: #050505;
+  text-align: left;
+}
+
+/* Text box 2 styles */
+.text-box-2 {
+  width: 629px;
+  font-family: "Work Sans";
+  font-size: 28px;
+  line-height: 35px;
+  text-align: left;
+}
+
+/* Text input styles */
+.text-input {
+  width: 613px;
+  height: 66px;
+  border-radius: 16px;
+  border-width: 1px;
+  padding: 24px 48px;
+  gap: 10px;
+  box-sizing: border-box;
+  font-family: "Work Sans";
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 18px;
+  background-color: white;
+  color: #111;
+}
+
+.text-input::placeholder {
+  color: #888;
+}
+
+/* Sidebar image styles */
+.sidebar-image {
+  position: absolute;
+  top: 0;
+  right: 100px;
+  height: 100%;
+  width: auto;
+}
