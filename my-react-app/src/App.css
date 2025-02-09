@@ -165,5 +165,18 @@
   top: 0;
   right: 100px;
   height: 100%;
-  width: auto;
+  width: 50%;
+  background: transparent;
+}
+
+.video {
+  width: 350px;
+  height: 600px;
+  object-fit: cover;
+  object-position: center;
+  position: fixed;
+  top: 50px;
+  right: 290px;
+  border-radius: 16px;
+;
 }

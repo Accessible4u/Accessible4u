@@ -5,6 +5,7 @@ import Dashboard from "./pages/Dashboard/Dashboard";
 import logo from "../public/logo.png"; // Adjust the path if necessary
 import wheelchair from "../public/wheelchair.png"; // Adjust the path if necessary
 import landingpagesidebarimage from "../public/landingpagesidebarimage.png"; // Adjust the path if necessary
+import video from "../public/hero_video.mp4"; // Adjust the path if necessary
 
 function App() {
   const [theme, setTheme] = useState("light");
@@ -186,6 +187,7 @@ function App() {
           </form>
         </div>
         <img src={landingpagesidebarimage} alt="Sidebar" className="sidebar-image" />
+        <video src={video} autoPlay loop muted className="video" />
         <Routes>
           <Route path="/dashboard" element={<Dashboard />} />
         </Routes>
