@@ -1,5 +1,7 @@
 # Accessible4u
+
 🚀 **An AI-powered tool to analyze website accessibility and detect WCAG violations.**
+
 💻 **[DevFest 2025](https://2025.devfestcu.com/)** (Columbia University Hackathon)
 
 ## **🔍 Overview**
@@ -12,10 +14,10 @@ The backend is built with **Node.js** and **Express**, while the frontend is des
 ---
 
 ## **✨ Features**
-✅ **Detects accessibility issues** using axe-core.
-✅ **Categorizes issues** by severity (Critical, Serious, Moderate, Minor).
-✅ **Ranks issues** and displays affected elements with code snippets.
-✅ **Provides explanations & suggestions** for each issue.
+✅ **Detects accessibility issues** using axe-core.\
+✅ **Categorizes issues** by severity (Critical, Serious, Moderate, Minor).\
+✅ **Ranks issues** and displays affected elements with code snippets.\
+✅ **Provides explanations & suggestions** for each issue.\
 ✅ **Provides Services** to make your website accessibility friendly.
 
 ---
@@ -103,6 +105,7 @@ Content-Type: application/json
 
 ## **👥 Team**
 **Frontend Developer**: Brian De Los Santos | [LinkedIn](https://www.linkedin.com/in/briandelossantoscyber/) | [GitHub](https://github.com/BrianD445)
+
 **Backend Developer**: Ahnaf Ahmed | [LinkedIn](https://www.linkedin.com/in/ahnafahmed13/) | [GitHub](https://github.com/AhnafAhmed13)
 
 ---
